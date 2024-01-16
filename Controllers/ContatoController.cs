@@ -7,7 +7,7 @@ using Agenda.ViewModels;
 
 namespace Agenda.Controllers
 {
-    [ApiController] //Para dizer que esse controller é para uma pi
+    [ApiController] //Para dizer que esse controller é para uma api
     public class ContatoController : ControllerBase
     {
         [HttpGet("/")]//Para dizer que é um GET e já tem a rota ali
